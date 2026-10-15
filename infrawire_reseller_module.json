@@ -1,22 +1,26 @@
 {
   "name": "infrawire_module_resel",
-  "version": "1.2.0",
-  "description": "Fichiers de configuration et détails de la mise à jour initiale.",
-  "release_date": "2026-10-08",
+  "version": "1.2.1",
+  "description": "Configuration files and release details for version 1.2.1.",
+  "release_date": "2026-10-15",
   "update_details": {
-    "summary": "Sortie initiale de la version 1.0.0 avec les fonctionnalités de base.",
+    "summary": "Release of version 1.2.1 introducing language support, app templates fixes, and VPS resource system updates.",
     "changes": [
       {
         "type": "feature",
-        "description": "Mise en place de la structure initiale du projet."
+        "description": "Added a new language selection menu."
       },
       {
         "type": "improvement",
-        "description": "Optimisation des performances et de la configuration."
+        "description": "Modified the resource management system used for VPS."
       },
       {
         "type": "fix",
-        "description": "Correction des bugs mineurs de l'environnement de staging."
+        "description": "Resolved language bugs."
+      },
+      {
+        "type": "fix",
+        "description": "Fixed issues with the app templates page."
       }
     ],
     "status": "stable"
